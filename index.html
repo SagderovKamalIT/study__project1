@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First study project</title>
+
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <h1>
+          <strong>Моя первая (учебная) веб-страница</strong>
+        </h1>
+
+        <nav>
+          <ul class="header__nav">
+            <li>
+              <a class="header__list-link" href="#about__section-title">
+                О нас
+              </a>
+            </li>
+
+            <li>
+              <a class="header__list-link" href="#services__section-title">
+                Услуги
+              </a>
+            </li>
+
+            <li>
+              <a class="header__list-link" href="#contacts__section">
+                Контакты
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="about__section">
+        <h2 id="about__section-title">
+          <strong> О нас </strong>
+        </h2>
+
+        <p>
+          Мы занимаемся созданием современных веб-сайтов
+          <strong>Наша команда</strong>
+          состоит из опытных разработчиков, которые могут реализовать проект
+          любой сложности. Успех
+          <i>нашего бизнеса строится на доверии наших клиентов.</i>
+        </p>
+
+        <img
+          class="about__section-img"
+          src="recourses/minions.webp"
+          alt="Фото персонажей мультфильма 'Миньоны' "
+        />
+      </section>
+
+      <section class="services__section">
+        <h2 id="services__section-title">
+          <strong> Наши услуги </strong>
+        </h2>
+
+        <p>Мы предлогаем различные услуги</p>
+
+        <ul>
+          <li><strong>Разработка веб-сайтов</strong></li>
+          <li><strong>SEO-оптимизация</strong></li>
+          <li><strong>Техническая поддержка</strong></li>
+        </ul>
+      </section>
+
+      <section id="contacts__section" class="contacts__section">
+        <p>
+          Вы можете связаться с нами по электронной почте:
+          <a class="contacts__section-mail" href="mailto:info@example.com"
+            ><strong>info@example.com</strong></a
+          >
+        </p>
+
+        <p>
+          Или по телефону:
+          <a class="contacts__section-phone" href="tel:+71234567890"
+            ><i>+7 (123) 456-78-90</i></a
+          >
+        </p>
+      </section>
+
+      <section class="videio__section">
+        <h2>
+          <strong> Пример видео </strong>
+        </h2>
+
+        <video class="video__section-link" autoplay loop controls>
+          <source src="recourses/minions__video.mp4" type="video/mp4" />
+        </video>
+      </section>
+    </main>
+  </body>
+</html>

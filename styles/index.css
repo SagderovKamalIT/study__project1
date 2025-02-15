@@ -1,0 +1,32 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.header__nav {
+    display: flex;
+        gap: 30px; 
+        padding: 0;
+
+        list-style-type: none
+}
+
+.header__list-link {
+    text-decoration: none;
+}
+
+.about__section-img {
+    width: 500px;
+    height: auto;
+}
+
+.contacts__section-mail,
+.contacts__section-phone {
+    text-decoration: none;
+    color: black;
+}
+
+
+.video__section-link {
+    width: 500px;
+    height: 600px;
+}
